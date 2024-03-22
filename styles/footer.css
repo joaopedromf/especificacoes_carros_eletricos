@@ -1,0 +1,74 @@
+.rodape{
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to left, #dad7d7, #e2e2e2,#d4cece);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.rodape__conteudo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rodape__texto{
+    font-size: 1.3rem;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.rodape__logo-link{
+    display: inline-block;
+    transition: transform .5s ease-in-out;
+}
+
+.rodape__logo-link:hover{
+    transform: scale(1.1);
+}
+
+.rodape__logo{
+    width: 100%;
+    max-width: 280px;
+}
+
+.rodape__separacao{
+    display: block;
+    width: 1px;
+    height: 80px;
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.rodape__links{
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape__links-item a i{
+    font-size: 2rem;
+    color: var(--cor-laranja);
+    transition: all .5s ease;
+}
+
+.rodape__links-item a .fa-square-facebook:hover{
+    color: #0866ff;
+}
+
+.rodape__links-item a .fa-square-instagram:hover{
+    background: -webkit-linear-gradient(45deg, #f7ce02, #f96302, #f71102, #d32155, #b43890, #904eca, #8944bb, #7832ae);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rodape__links-item a .fa-linkedin:hover{
+    color: #0E76A8;
+}
+
+.rodape__links-item a .fa-square-youtube:hover{
+    color: #fe0000;
+}
