@@ -1,0 +1,106 @@
+@media screen and (max-width: 1180px){
+
+    .especificacoes__tipo-veiculo-collapse{
+        display: block;
+        font-size: .9rem;
+        color: #edf3f8;
+        background-color: var(--cor-laranja);
+        border: 1px solid #be6403;
+        border-radius: 4px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+        transition: background-color .5s;
+    }
+
+    .especificacoes__tipo-veiculo-collapse:hover{
+        background-color: #dd7302;
+    }
+
+    .especificacoes__tipo-veiculo-titulo{
+        font-weight: 500;
+        padding: 1rem;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .fa-plus, .fa-minus{
+        position: absolute;
+        right: 1rem;
+    }
+
+    .especificacoes__tipo-veiculo-collapse[open] .especificacoes__tipo-veiculo-titulo .fa-plus,
+    .especificacoes__fabricante-collapse[open] .especificacoes__fabricante-titulo .fa-plus{
+        display: none;
+    }
+
+    .especificacoes__fabricante-collapse{
+        color: black;
+        background-color: #ffe6cd;
+        
+        border-top: 1px solid #be6403; 
+        transition: background-color .5s;
+    }
+
+    .especificacoes__fabricante-collapse:last-child{
+        border-radius: 0 0 4px 4px;
+    }
+
+    .especificacoes__fabricante-collapse:hover{
+        background-color: #ffd2a4;
+    }
+
+    .especificacoes__fabricante-titulo{
+        font-weight: 500;
+        padding: 1rem;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .especificacoes__veiculo{
+        background-color: #f7f7f7;
+        padding: .9rem 0 1.2rem 4%;
+        border-top: 1px solid #be6403;
+        line-height: 2;
+    }
+
+    .especificacoes__fabricante-collapse:last-child .especificacoes__veiculo:last-child{
+        border-radius: 0 0 4px 4px;
+    }
+
+    .especificacoes__veiculo-nome{
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-image: linear-gradient(to bottom, rgb(255, 115, 0), rgb(231, 137, 29), rgb(177, 95, 19), rgb(163, 117, 18));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: black;
+    }
+
+    .especificacoes__veiculo .especificacoes__veiculo-span{
+        font-weight: 600;
+        background-image: linear-gradient(to bottom, rgb(233, 112, 14), rgb(156, 100, 15), rgb(94, 66, 16));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: black;
+    }
+
+    .especificacoes__veiculo ul{
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    .especificacoes__veiculo ul li{
+        line-height: 2.5;
+    }
+
+    .especificacoes__veiculo ul li ul{
+        list-style-type: circle;
+        list-style-position: inside;
+    }
+
+    .especificacoes__veiculo ul li ul li{
+        margin-left: 1.5rem;
+        line-height: 1.7;
+    }
+}
