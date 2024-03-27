@@ -18,6 +18,7 @@
     font-size: 1.3rem;
     font-weight: 300;
     display: inline-block;
+    text-wrap: nowrap;
 }
 
 .rodape__logo-link{
@@ -32,6 +33,7 @@
 .rodape__logo{
     width: 100%;
     max-width: 280px;
+    min-width: 175px;
 }
 
 .rodape__separacao{
@@ -71,4 +73,35 @@
 
 .rodape__links-item a .fa-square-youtube:hover{
     color: #fe0000;
+}
+
+@media screen and (max-width: 480px){
+
+    .rodape__texto{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .rodape__texto{
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .rodape{
+        flex-direction: column;
+    }
+
+    .rodape__separacao{
+        width: 70%;
+        height: 1px;
+    }
+
+    .rodape__links{
+        margin-left: 0;
+        margin-top: .4rem;
+    }
 }

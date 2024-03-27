@@ -17,9 +17,12 @@
 
     .especificacoes__tipo-veiculo-titulo{
         font-weight: 500;
-        padding: 1rem;
+        padding: 1rem 3rem 1rem 1rem;
         cursor: pointer;
         position: relative;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .fa-plus, .fa-minus{
@@ -50,7 +53,10 @@
 
     .especificacoes__fabricante-titulo{
         font-weight: 500;
-        padding: 1rem;
+        padding: 1rem 3rem 1rem 1rem;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
         cursor: pointer;
         position: relative;
     }

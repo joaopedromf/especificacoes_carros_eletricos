@@ -1,6 +1,6 @@
 :root{
     --cor-laranja: #f07c00;
-    --cor-notas: rgb(42, 42, 224);
+    --cor-notas: rgb(47, 47, 139);
 }
 
 body{
@@ -19,7 +19,7 @@ details summary{
 @media screen and (max-width: 1180px){
 
     main{
-        min-height: calc(100vh - 185px);
+        min-height: calc(100vh - 200px);
         padding: 4.5%;
     }
 }
