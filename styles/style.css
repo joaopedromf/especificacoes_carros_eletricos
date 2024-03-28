@@ -20,7 +20,7 @@ details summary::-webkit-details-marker{
     display: none;
 }
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1230px){
 
     main{
         min-height: calc(100vh - 200px);

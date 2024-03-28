@@ -1,4 +1,4 @@
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1230px){
 
     .especificacoes__tipo-veiculo-collapse{
         display: block;
@@ -6,9 +6,13 @@
         color: #edf3f8;
         background-color: var(--cor-laranja);
         border: 1px solid #be6403;
-        border-radius: 4px;
+        border-radius: 2rem;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
         transition: background-color .5s;
+    }
+
+    .especificacoes__tipo-veiculo-collapse[open]{
+        border-radius: 1.5rem 1.5rem 4px 4px;
     }
 
     .especificacoes__tipo-veiculo-collapse:hover{
@@ -17,12 +21,32 @@
 
     .especificacoes__tipo-veiculo-titulo{
         font-weight: 500;
-        padding: 1rem 3rem 1rem 1rem;
+        padding: 1rem 3rem 1rem 3.2rem;
         cursor: pointer;
         position: relative;
         text-wrap: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+    }
+
+    .especificacoes__tipo-veiculo-icone{
+        display: inline-block;
+        height: 2.6rem;
+        width: 2.6rem;
+        background-color: #ffffff;
+        border: 1px solid #be6403;
+        border-radius: 2rem;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        background-image: url(../assets/favicon.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+    }
+
+    .especificacoes__tipo-veiculo-collapse[open] .especificacoes__tipo-veiculo-icone{
+        border-radius: 1.5rem 1.5rem 1.5rem 4px;
     }
 
     .fa-plus, .fa-minus{

@@ -10,6 +10,7 @@
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.2;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-image: linear-gradient(to bottom, rgb(255, 115, 0), rgb(231, 137, 29), rgb(177, 95, 19), rgb(163, 117, 18));
     background-clip: text;
@@ -111,7 +112,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1230px){
 
     .especificacoes{
         align-items: stretch;
