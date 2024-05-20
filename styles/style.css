@@ -12,6 +12,10 @@ main{
     padding: 3%;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 details summary{
     list-style-type: none;
 }
